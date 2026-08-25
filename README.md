@@ -1,22 +1,22 @@
 # Goodreads & Harry Potter Data Analysis (Dockerized)
 
-A containerized Python data analysis environment exploring the Goodreads books dataset, featuring exploratory data analysis (EDA), missing value diagnostics, and targeted series analysis for the Harry Potter book franchise[cite: 1].
+A containerized Python data analysis environment exploring the Goodreads books dataset, featuring exploratory data analysis (EDA), missing value diagnostics, and targeted series analysis for the Harry Potter book franchise.
 
 ---
 
 ## Analysis Overview
 
-* **Data Ingestion & Inspection:** Loads and evaluates Goodreads book catalog metadata from `books.csv`[cite: 1].
-* **Data Cleaning & Quality Diagnostics:** Systematically inspects missing and null values across columns such as titles, authors, publication years, and ratings[cite: 1].
-* **Harry Potter Series Deep Dive:** Filters and analyzes metrics for J.K. Rowling's Harry Potter series, including publication timeline, rating counts, and average user ratings[cite: 1].
+* **Data Ingestion & Inspection:** Loads and evaluates Goodreads book catalog metadata from `books.csv`.
+* **Data Cleaning & Quality Diagnostics:** Systematically inspects missing and null values across columns such as titles, authors, publication years, and ratings.
+* **Harry Potter Series Deep Dive:** Filters and analyzes metrics for J.K. Rowling's Harry Potter series, including publication timeline, rating counts, and average user ratings.
 * **Reproducible Execution:** Fully containerized using Docker to ensure dependency isolation and zero-configuration execution in Jupyter Notebook.
 
 ---
 
 ## Tech Stack
 
-* **Language:** Python[cite: 1]
-* **Libraries:** Pandas, NumPy, Jupyter Notebook[cite: 1]
+* **Language:** Python
+* **Libraries:** Pandas, NumPy, Jupyter Notebook
 * **Environment & Containerization:** Docker
 
 ---
@@ -24,10 +24,10 @@ A containerized Python data analysis environment exploring the Goodreads books d
 ## Project Structure
 
 * `Dockerfile` — Builds the containerized Python and Jupyter data science environment
-* `HarryPotter.ipynb` — Jupyter Notebook containing data preprocessing, cleaning, and EDA workflows[cite: 1]
-* `books.csv` — Goodreads dataset containing book metadata and rating statistics[cite: 1]
+* `HarryPotter.ipynb` — Jupyter Notebook containing data preprocessing, cleaning, and EDA workflows
+* `books.csv` — Goodreads dataset containing book metadata and rating statistics
 * `requirements.txt` — Python dependencies for the analysis environment
-* `cloudpdf.pdf` — Exported documentation and preview of the executed analysis[cite: 1]
+* `cloudpdf.pdf` — Exported documentation and preview of the executed analysis
 
 ---
 
